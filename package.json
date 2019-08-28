@@ -1,0 +1,31 @@
+{
+  "name": "express-app",
+  "version": "1.0.0",
+  "description": "A learning app for ExpressJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js --exec babel-node -e js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/m0nq/express-app.git"
+  },
+  "author": "Monk Wellington",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m0nq/express-app/issues"
+  },
+  "homepage": "https://github.com/m0nq/express-app#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-loader": "^8.0.6",
+    "babel-node": "0.0.1-security"
+  }
+}
