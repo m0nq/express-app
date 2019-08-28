@@ -198,4 +198,4 @@ fabric.properties
 .idea/sonarlint
 .idea/
 
-dist/
+.dist/
